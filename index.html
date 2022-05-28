@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PrOMDb</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- CSS only --> 
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+ 
+</head>
+<body>
+
+    <!-- App container -->
+    <div id="app-container">
+        <h1>PrOMDb</h1>
+        <div>
+          <a href="index.html"><button>Home</button></a>
+        </div>
+
+        <!-- Search container having search bar inside it -->
+      <div id="search-container">
+        <input type="text" id="title" placeholder="Search Movies" onkeyup="searchMovies()">
+      </div>
+
+      <!-- Container for showing results after searching for movie  -->
+      <div id="movie-list" class="search-list hide ">
+
+      </div>
+
+      <!-- Container where results will be displayed -->
+      <div class="result-container">
+
+          <div id="poster-container"> 
+          </div>
+
+          <div id="info-container">
+          </div>
+
+      </div>
+    </div>
+    
+    <!-- Script tag  -->
+     <script src="script.js"></script>   
+</body>
+</html>
